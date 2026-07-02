@@ -39,6 +39,8 @@ cmake -S . -B build \
   -DLIBTORCH_PATH=/path/to/libtorch
 
 cmake --build build -j2
+cd build
+make
 ```
 
 `LIBTORCH_PATH` can also be supplied as an environment variable:
@@ -47,6 +49,8 @@ cmake --build build -j2
 export LIBTORCH_PATH=/path/to/libtorch
 cmake -S . -B build
 cmake --build build -j2
+cd build
+make
 ```
 
 The executables are generated in `bin/`:
