@@ -10,7 +10,7 @@ Sampling is built into CryoAlign2. CPU convolution and local alignment can be ac
 
 - Ubuntu 20.04 or later
 - CMake 3.20 or later
-- A C++17 compiler
+- C++17 compiler
 - OpenMPI
 - OpenMP
 - CUDA 12.2
